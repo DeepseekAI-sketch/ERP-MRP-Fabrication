@@ -1,69 +1,74 @@
-# Welcome to your Lovable project
+# 📱 Application Mobile ERP/MRP pour les PME de Fabrication
 
-## Project info
+Une solution mobile moderne et efficace pour gérer votre production, vos stocks et vos indicateurs clés directement depuis votre smartphone ou tablette.
 
-**URL**: https://lovable.dev/projects/87637d9d-7e86-49b7-ba0a-67b0ac683f3f
+## ✨ Fonctionnalités Clés
 
-## How can I edit this code?
+- ✅ **Authentification Sécurisée** – Connexion protégée pour un accès aux données en toute sécurité.
+- 📊 **Tableau de Bord avec KPIs Essentiels** – Visualisation en temps réel des performances.
+- 🏭 **Gestion de Production** – Suivi intuitif des ordres de fabrication et des opérations en cours.
+- 📦 **Consultation des Stocks** – Accès rapide aux niveaux de stock et informations produits.
+- 🧭 **Navigation Intuitive** – Interface fluide et ergonomique optimisée pour les écrans tactiles.
 
-There are several ways of editing your application.
+## 🎨 Design & Expérience Utilisateur
 
-**Use Lovable**
+- **Palette de couleurs professionnelle** : tons **bleus et gris** pour une meilleure lisibilité.
+- **Icônes et graphismes épurés** pour une navigation fluide.
+- **Interface ergonomique** conçue pour une utilisation en milieu industriel.
+
+## 🛠️ Stack Technologique
+
+- **Frontend :** React Native / Flutter
+- **Backend :** Node.js (Express) / ASP.NET Core
+- **Base de Données :** PostgreSQL / SQL Server
+- **Authentification :** JWT / OAuth 2.0
+- **Synchronisation ERP :** API REST / GraphQL
+
+## 🚀 Installation & Déploiement
+
+### Prérequis
+- Node.js et npm / Yarn (pour React Native)
+- Flutter SDK (si Flutter est utilisé)
+- Accès à l’API ERP/MRP
+
+### Installation
+```bash
+# Cloner le projet
+git clone https://github.com/DeepseekAI-sketch/ERP-MRP-Fabrication.git
+cd erp-mobile
+
+# Installer les dépendances
+npm install  # ou yarn install
+
+# Lancer l'application en mode développement
+npm start  # ou yarn start
+```
+
+### Déploiement Backend
+```bash
+cd backend
+npm install  # Installer les dépendances
+npm run dev  # Démarrer le serveur backend
+```
+
+## 📸 Captures d'écran
+(Ajoutez ici des captures d'écran de l'application.)
+
+## 🔮 Roadmap
+- 🔹 Notifications push pour alertes de production
+- 🔹 Mode hors ligne avec synchronisation des données
+- 🔹 Personnalisation des tableaux de bord
+- 🔹 Intégration avec systèmes IoT industriels
+
+## 🤝 Contribuer
+Les contributions sont les bienvenues ! Forkez le repo et soumettez vos PRs.
+
+## 📄 Licence
+MIT License - Voir le fichier `LICENSE` pour plus de détails.
+
+---
+**Conçu pour la gestion agile et efficace de votre production !** 🚀
+
 
 Simply visit the [Lovable Project](https://lovable.dev/projects/87637d9d-7e86-49b7-ba0a-67b0ac683f3f) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/87637d9d-7e86-49b7-ba0a-67b0ac683f3f) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
